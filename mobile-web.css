@@ -1,0 +1,124 @@
+/*1.清空默认样式*/
+html{color:#000;background:#FFF;
+    font-size:75px;                         
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
+legend{color:#000}
+a{text-decoration: none; color: #999;}
+
+/*  */
+.item-section{
+    background-color: #ee0a3b;
+}
+
+/*  */
+.item-section .item-section_header{
+    /* width:750px;
+    height:481px; */
+    width:10rem;
+    height:6.413333rem;
+}
+.item-section .item-section_header img{
+    width:10rem;
+    height:6.413333rem;
+}
+
+/*  */
+.item-section ul{
+    padding:10px;
+}
+.item-section ul li{
+    /* width:730px;
+    height:204px; */
+    width:9.733333rem;
+    height:2.72rem;
+    font-size: 0;
+    -webkit-text-size-adjust:none;
+    background-color: #fff;
+}
+/*  */
+.figure{
+    display:inline-block;
+    /* width:180px; */
+    width:2.4rem;
+    height:100%;
+    padding:12px 0;
+    vertical-align: top;
+    /* background-color: salmon; */
+}
+.figure img{
+    /* width:180px;
+    height:180px; */
+    width:2.4rem;
+    height:2.4rem;
+}
+/*  */
+.figcaption{
+    display:inline-block;
+    /* width:550px; */
+    width:7.333333rem;
+    height:100%;
+    vertical-align: top;
+    /* background-color: seagreen; */
+    position:relative;
+    padding:12px;
+    box-sizing: border-box;
+}
+.flag-title a{
+    display:block;
+    font-size: 24px;
+    color:#333;
+}
+.flag-price{
+    color: #ee0a3b;
+    font-weight: 700;
+    margin:15px 0;
+}
+.flag-price span{
+    display: inline-block;
+    background-color: #ee0a3b;
+    color: #fff;
+    font-size: 22px;
+    /* width:83px;
+    height:32px; */
+    width:1.106667rem;
+    height:0.426667rem;
+    text-align: center;
+}
+.flag-price strong{
+    font-size:32px;
+    font-weight: 700;
+    margin:0 15px;
+}
+.flag-price small{
+    font-size: 24px;
+}
+.flag-type{
+    color: #ff3600;
+    font-size: 24px;
+}
+.flag-btn{
+    font-size: 28px;
+    background-color: #ee0a3b;
+    color: #fff;
+    position: absolute;
+    right:12px;
+    bottom:12px;
+    text-align: center;
+    /* width:160px;
+    height:48px; */
+    width:2.133333rem;
+    height:0.64rem;
+    line-height: 0.64rem;
+}
