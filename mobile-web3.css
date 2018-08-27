@@ -17,11 +17,13 @@ input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;
 legend{color:#000}
 a{text-decoration: none; color: #999;}
 
-
+html,body{
+    width:7.5rem;
+}
 /*  */
 .item-section{
     background-color: #ee0a3b;
-    width:10rem;
+    width:100%;
 }
 
 /*  */
@@ -29,25 +31,27 @@ a{text-decoration: none; color: #999;}
     /* width:750px;
     height:481px; */
     width:100%;
-    height:6.413333rem;
+    height:4.81rem;
 }
 .item-section .item-section_header img{
-    width:10rem;
-    height:6.413333rem;
+    /* width:750px;
+    height:481px; */
+    width:7.5rem;
+    height:4.81rem;
 }
 
 /*  */
 .item-section ul{
-    width:100%;    
+    width:100%;
     /* padding:10px; */
-    padding:0.133333rem;
+    padding:0.1rem;
     box-sizing: border-box;
 }
 .item-section ul li{
     /* width:730px;
     height:204px; */
-    width:9.733333rem;
-    height:2.72rem;
+    width:7.3rem;
+    height:2.04rem;
     font-size: 0;
     -webkit-text-size-adjust:none;
     background-color: #fff;
@@ -56,87 +60,87 @@ a{text-decoration: none; color: #999;}
 .figure{
     display:inline-block;
     /* width:180px; */
-    width:2.4rem;
+    width:1.8rem;
     height:100%;
     /* padding:12px 0; */
-    padding:0.16rem 0;
+    padding:0.12rem 0;
     vertical-align: top;
     /* background-color: salmon; */
 }
 .figure img{
     /* width:180px;
     height:180px; */
-    width:2.4rem;
-    height:2.4rem;
+    width:1.8rem;
+    height:1.8rem;
 }
 /*  */
 .figcaption{
     display:inline-block;
     /* width:550px; */
-    width:7.333333rem;
+    width:5.5rem;
     height:100%;
     vertical-align: top;
     /* background-color: seagreen; */
     position:relative;
     /* padding:12px; */
-    padding:0.16rem;
+    padding:0.12rem;
     box-sizing: border-box;
 }
 .flag-title a{
     display:block;
     /* font-size: 24px; */
-    font-size: 0.32rem;
+    font-size: 0.24rem;
     color:#333;
 }
 .flag-price{
     color: #ee0a3b;
     font-weight: 700;
     /* margin:15px 0; */
-    margin:0.2rem 0;
+    margin:0.15rem 0;
 }
 .flag-price span{
     display: inline-block;
     background-color: #ee0a3b;
     color: #fff;
     /* font-size: 22px; */
-    font-size: 0.293333rem;
+    font-size: 0.22rem;
     /* width:83px;
     height:32px; */
-    /* width:1.106667rem; */
-    width:1.216667rem;
-    height:0.426667rem;
+    width:0.83rem;
+    height:0.32rem;
     text-align: center;
 }
 .flag-price strong{
     /* font-size:32px; */
-    font-size:0.426667rem;
+    font-size:0.32rem;
     font-weight: 700;
     /* margin:0 15px; */
-    margin:0 0.2rem;
+    margin:0 0.15rem;
 }
 .flag-price small{
     /* font-size: 24px; */
-    font-size: 0.32rem;
+    font-size: 0.24rem;
 }
 .flag-type{
     color: #ff3600;
     /* font-size: 24px; */
-    font-size: 0.32rem;
+    font-size: 0.24rem;
 }
 .flag-btn{
     /* font-size: 28px; */
-    font-size: 0.373333rem;
+    font-size: 0.28rem;
     background-color: #ee0a3b;
     color: #fff;
     position: absolute;
     /* right:12px;
     bottom:12px; */
-    right:0.16rem;
-    bottom:0.16rem;
+    right:0.12rem;
+    bottom:0.12rem;
     text-align: center;
     /* width:160px;
-    height:48px; */
-    width:2.133333rem;
-    height:0.64rem;
-    line-height: 0.64rem;
+    height:48px;
+    line-height:48px; */
+    width:1.6rem;
+    height:0.48rem;
+    line-height: 0.48rem;
 }
